@@ -1,0 +1,67 @@
+/* Container for the spin bottle game */
+.spin-bottle-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Wrapper for the bottle image */
+.bottle-wrapper {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background: #ffff;
+
+    /* Smooth rotation animation */
+    transition: transform 3s ease-out;
+}
+
+/* Bottle image styling */
+.bottle-image {
+    width: 150px;
+    height: auto;
+    transition: transform 3s ease-out;
+    /* Smooth rotation animation */
+}
+
+/* Hover effect to scale the bottle image */
+.bottle-wrapper:hover .bottle-image {
+    transform: scale(1.1);
+}
+
+/* Winner display styling */
+.spin-bottle-container h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.spin-bottle-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+    background: linear-gradient(to top, rgba(249, 249, 249, 0.974), #f1356d);
+}
+
+.winner h2 {
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.winner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
