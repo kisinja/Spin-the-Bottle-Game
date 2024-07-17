@@ -1,4 +1,5 @@
 import AddPlayer from "./components/AddPlayer"
+import Footer from "./components/Footer";
 import PlayerList from "./components/PlayerList"
 import SpinBottle from "./components/SpinBottle"
 import { PlayerProvider } from "./context/PlayerContext"
@@ -15,6 +16,7 @@ const App = () => {
           <PlayerList />
         </div>
       </div>
+      <Footer />
     </PlayerProvider>
   );
 };

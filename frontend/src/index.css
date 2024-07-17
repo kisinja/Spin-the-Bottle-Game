@@ -124,9 +124,29 @@ button:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .player-list-container h2 {
   text-align: center;
   font-weight: 300;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  letter-spacing: 2px;
+}
+
+footer a {
+  color: #f1356d;
+  text-decoration: underline;
+  margin-left: 5px;
 }
